@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
   guaranteeYears: "25 Year Guarantee",
   insurredInfo: "Fully Accredited",
   jobsCompleted: "4,160+ Projects Completed",
-  phoneNumber: "+447915068323",
+  phoneNumber: "+44 07798 832130",
   emailAddress: "info@roofexltd.co.uk",
   ctaTextPrimary: "Get My Free Quote",
   ctaTextSecondary: "Call Us",
