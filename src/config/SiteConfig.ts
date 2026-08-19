@@ -232,6 +232,9 @@ export const siteConfig: SiteConfig = {
       "/gallery/work-7.webp",
       "/gallery/work-8.webp",
       "/gallery/work-9.webp",
+      "/gallery/work-10.webp",
+      "/gallery/work-11.webp",
+      "/gallery/work-12.webp",
     ],
   },
   ownerInfo: {
