@@ -20,7 +20,7 @@ const MeetOwner = () => {
           <div className="bg-gray-50 flex flex-col justify-center px-8 md:px-12 py-10 gap-5">
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-                Meet Billyjoe Docherty
+                Top Roofing Contractors in your local area.
               </h2>
               <p className="text-lg md:text-xl font-semibold text-gray-700 mt-1">
                 Your Local Roofer in West Yorkshire
@@ -28,9 +28,15 @@ const MeetOwner = () => {
             </div>
 
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              &ldquo;Hi, I&apos;m Billyjoe and I&apos;ve been roofing in West
-              Yorkshire for over 20 years. If I wouldn&apos;t accept it on my own
-              home, it doesn&apos;t go on yours.&rdquo;
+              At Peakdale Roofing and Contractors we are more than just a roofing
+              company, we pride ourselves on being your trusted experts for all
+              things roofing. Whether you&apos;re refurbishing your home, repairing
+              damage, or in need of a brand-new roof, our team of skilled
+              professionals has you covered. With years of experience and a
+              commitment to excellence, we ensure every job is completed to the
+              highest standards, giving you peace of mind that your property is in
+              safe hands. No matter the size or scale of the project, we deliver
+              reliable, top-quality workmanship tailored to your needs.
             </p>
 
             <ul className="flex flex-col gap-3">
