@@ -42,29 +42,34 @@ export const siteConfig: SiteConfig = {
   checkatradeRatingImage: "/images/checkatrade-badge.png",
   faqData: [
     {
-      question: "How long does a roof replacement take?",
+      question: "How would I know if my roof needs repairing or replacing?",
       answer:
-        "Most roof replacements take around 3–5 days, depending on your property size and the type of roof. We’ll give you a clear timescale before work starts and keep you updated throughout.",
+        "You may need roof repairs or replacement if you notice issues such as leaks, missing tiles, sagging, or visible damage. Our team can carry out a thorough inspection to determine the best solution and recommend whether a repair or full replacement is the most cost-effective option.",
     },
     {
-      question: "Do you handle cleanup after the job?",
+      question: "Do you offer emergency roof repairs?",
       answer:
-        "Yes — our team takes care of all waste and cleanup once your roof is finished. We always leave your home tidy, safe, and looking its best.",
+        "Yes, we offer emergency roof repair services to quickly address leaks, storm damage, or any urgent issues. Our team responds promptly to secure your roof and prevent further damage, giving you peace of mind when you need it most.",
     },
     {
-      question: "Are you fully insured?",
+      question: "How do you carry out roof inspections?",
       answer:
-        "Absolutely. We’re fully insured and qualified, and every roofing job comes with a 25-year workmanship guarantee for complete peace of mind.",
+        "We carry out roof inspections using advanced drone technology, allowing us to safely and accurately assess every part of your roof from above. This ensures no detail is missed and gives us a clear view of any issues without the need for scaffolding or ladders.",
     },
     {
-      question: "What happens if it rains during the job?",
+      question: "Do you provide maintenance services?",
       answer:
-        "If the weather changes, we use temporary waterproof coverings to keep your home protected. Work resumes as soon as conditions are safe and dry.",
+        "Yes, we offer regular maintenance to keep your landscape looking its best all year-round.",
     },
     {
-      question: "Do you offer free quotes?",
+      question: "What is the typical lifespan of a roof?",
       answer:
-        "Yes — all our inspections and quotes are completely free and no-obligation. You’ll always know exactly what’s needed before any work begins.",
+        "The lifespan of a typical roof depends on the materials used, but most last between 20 to 50 years with proper maintenance. Regular inspections and timely repairs can help extend the life of your roof and keep it performing at its best.",
+    },
+    {
+      question: "Can you work on both residential and commercial properties?",
+      answer:
+        "Yes, we work on both residential and commercial properties, tailoring our services to suit the specific needs of each project. Whether it’s a family home, office building, or industrial property, our experienced team delivers the same high standards of quality and professionalism.",
     },
   ],
   brand: {
