@@ -16,14 +16,14 @@ const TopHeader = () => {
           unoptimized
         />
         <Link
-          href="https://share.google/eewd9ZEPoBsN6jB3G"
+          href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
           target="_blank"
           className="min-w-0 w-1/2 inset-0 md:hidden"
         >
           <div className="flex h-[60px] w-full items-center justify-center">
             <Image
-              src="/icons/google-widget.jpg"
-              alt="Google Reviews"
+              src="/icons/facebook-widget.jpg"
+              alt="Facebook Reviews"
               width={180}
               height={60}
               className="h-full w-auto object-contain"
@@ -51,17 +51,17 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Google review badge */}
+      {/* Facebook review badge */}
       <div className="flex w-full items-stretch gap-2 md:w-auto">
         <Link
-          href="https://share.google/eewd9ZEPoBsN6jB3G"
+          href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
           target="_blank"
           className="hidden min-w-0  md:flex"
         >
           <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
             <Image
-              src="/icons/google-widget.jpg"
-              alt="Google Reviews"
+              src="/icons/facebook-widget.jpg"
+              alt="Facebook Reviews"
               width={180}
               height={60}
               className="h-full w-auto object-contain"

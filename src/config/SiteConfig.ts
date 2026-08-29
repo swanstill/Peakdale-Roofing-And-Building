@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   heroSloganPrimary:
     " We're Your Local Roofer",
   heroSloganSecondary: "Family-Run & Fully Accredited",
-  locationPrimary: "In West Yorkshire",
+  locationPrimary: "In Chesterfield & Surrounding Areas",
   foundedYear: "20+ Years Experience",
   reviewScore: "5/5",
   reviewCount: "4160",
@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
   heroTitle:
     "We're Your Local Roofer",
   heroDescription:
-    "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+    "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
   galleryImages: [
     "/gallery/09090.jpeg",
     "/gallery/1413.jpeg",
@@ -80,9 +80,9 @@ export const siteConfig: SiteConfig = {
     baseUrl: "https://peakdaleroofing.co.uk",
     titleTemplate: "%s | Peakdale Roofing And Building",
     defaultTitle:
-      "We're Your Local Roofer in West Yorkshire",
+      "We're Your Local Roofer in Chesterfield & Surrounding Areas",
     description:
-      "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+      "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
     ogImage: "/images/og-default.jpg",
     twitterHandle: "@peakdaleroofing",
   },
@@ -244,10 +244,10 @@ export const siteConfig: SiteConfig = {
   },
   ownerInfo: {
     headline: "Meet Paddy",
-    text: "“Hi, I'm Paddy and I've been roofing in West Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
+    text: "“Hi, I'm Paddy and I've been roofing in Chesterfield and the surrounding area for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
     bulletPoints: [
       "4,160+ Projects Completed Locally",
-      "5/5 Verified Google Reviews",
+      "5/5 Verified Facebook Reviews",
       "25-Year Guarantee & Fixed Pricing",
     ],
     ownerImage: "/images/team-image.jpeg",

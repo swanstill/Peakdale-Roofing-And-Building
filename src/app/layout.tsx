@@ -13,8 +13,8 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 export const metadata: Metadata = {
-  title: "Peakdale Roofing And Building - We're Your Local Roofer in West Yorkshire",
-  description: "Peakdale Roofing And Building - We're Your Local Roofer in West Yorkshire",
+  title: "Peakdale Roofing And Building - We're Your Local Roofer in Chesterfield & Surrounding Areas",
+  description: "Peakdale Roofing And Building - We're Your Local Roofer in Chesterfield & Surrounding Areas",
 };
 
 export default function RootLayout({
