@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
   guaranteeYears: "25 Year Guarantee",
   insurredInfo: "Fully Accredited",
   jobsCompleted: "4,160+ Projects Completed",
-  phoneNumber: "+44 07798 832130",
+  phoneNumber: "+44 7450 474790",
   emailAddress: "info@roofexltd.co.uk",
   ctaTextPrimary: "Get My Free Quote",
   ctaTextSecondary: "Call Us",
@@ -243,8 +243,8 @@ export const siteConfig: SiteConfig = {
     ],
   },
   ownerInfo: {
-    headline: "Meet Billyjoe Docherty",
-    text: "“Hi, I'm Billyjoe and I've been roofing in West Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
+    headline: "Meet Paddy",
+    text: "“Hi, I'm Paddy and I've been roofing in West Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
     bulletPoints: [
       "4,160+ Projects Completed Locally",
       "5/5 Verified Google Reviews",
