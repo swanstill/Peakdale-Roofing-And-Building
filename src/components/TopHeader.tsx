@@ -5,7 +5,7 @@ import Link from "next/link";
 const TopHeader = () => {
   return (
     <section className="flex flex-col gap-4 p-4 bg-white md:flex-row md:items-center md:justify-between md:px-16 md:py-4">
-      {/* Row 1 on mobile: logo + Google badge */}
+      {/* Row 1 on mobile: logo + badges */}
       <div className="flex min-w-0 items-center justify-between gap-2">
         <Image
           src={siteConfig.logoImage}
@@ -15,38 +15,41 @@ const TopHeader = () => {
           width={370}
           unoptimized
         />
-        {/* Bark badge — mobile only */}
-        <Link
-          href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
-          target="_blank"
-          className="min-w-0 w-1/2 inset-0 md:hidden"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center">
-            <Image
-              src="/icons/bark-widget.jpg"
-              alt="Bark Reviews"
-              width={180}
-              height={60}
-              className="h-full w-auto object-contain"
-            />
-          </div>
-        </Link>
-        {/* Facebook badge — mobile only */}
-        <Link
-          href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
-          target="_blank"
-          className="min-w-0 w-1/2 inset-0 md:hidden"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center">
-            <Image
-              src="/icons/facebook-widget.jpg"
-              alt="Facebook Reviews"
-              width={180}
-              height={60}
-              className="h-full w-auto object-contain"
-            />
-          </div>
-        </Link>
+        {/* Badges wrapper — mobile only, with 20px gap and shadow */}
+        <div className="flex items-center gap-[20px] md:hidden">
+          {/* Bark badge — mobile */}
+          <Link
+            href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
+            target="_blank"
+            className="min-w-0 w-1/2 inset-0"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center shadow-md">
+              <Image
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
+                width={180}
+                height={60}
+                className="h-full w-auto object-contain"
+              />
+            </div>
+          </Link>
+          {/* Facebook badge — mobile */}
+          <Link
+            href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
+            target="_blank"
+            className="min-w-0 w-1/2 inset-0"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center shadow-md">
+              <Image
+                src="/icons/facebook-widget.jpg"
+                alt="Facebook Reviews"
+                width={180}
+                height={60}
+                className="h-full w-auto object-contain"
+              />
+            </div>
+          </Link>
+        </div>
       </div>
 
       {/* Phone — desktop only */}
@@ -68,14 +71,15 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Bark review badge */}
-      <div className="flex w-full items-stretch gap-2 md:w-auto">
+      {/* Bark and Facebook review badges — desktop, with 20px gap and shadow */}
+      <div className="flex items-stretch gap-[20px] w-full md:w-auto">
+        {/* Bark review badge */}
         <Link
           href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+          <div className="flex h-[60px] items-center justify-center w-[180px] shadow-md">
             <Image
               src="/icons/bark-widget.jpg"
               alt="Bark Reviews"
@@ -85,16 +89,14 @@ const TopHeader = () => {
             />
           </div>
         </Link>
-      </div>
 
-      {/* Facebook review badge */}
-      <div className="flex w-full items-stretch gap-2 md:w-auto">
+        {/* Facebook review badge */}
         <Link
           href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
           target="_blank"
-          className="hidden min-w-0  md:flex"
+          className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+          <div className="flex h-[60px] items-center justify-center w-[180px] shadow-md">
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
