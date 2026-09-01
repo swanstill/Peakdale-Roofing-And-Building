@@ -25,7 +25,7 @@ const TopHeader = () => {
           target="_blank"
           className="flex-1"
         >
-          <div className="flex h-[60px] w-full items-center justify-center shadow-md">
+          <div className="flex h-[60px] w-full items-center justify-center ">
             <Image
               src="/icons/bark-widget.jpg"
               alt="Bark Reviews"
@@ -41,7 +41,7 @@ const TopHeader = () => {
           target="_blank"
           className="flex-1"
         >
-          <div className="flex h-[60px] w-full items-center justify-center shadow-md">
+          <div className="flex h-[60px] w-full items-center justify-center ">
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
@@ -72,7 +72,7 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Bark and Facebook review badges — desktop, with 15px gap and shadow */}
+      {/* Bark and Facebook review badges — desktop, with 15px gap */}
       <div className="flex items-stretch gap-[15px] w-full md:w-auto">
         {/* Bark review badge */}
         <Link
@@ -80,7 +80,7 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] shadow-md">
+          <div className="flex h-[60px] items-center justify-center w-[180px] ">
             <Image
               src="/icons/bark-widget.jpg"
               alt="Bark Reviews"
@@ -97,7 +97,7 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] shadow-md">
+          <div className="flex h-[60px] items-center justify-center w-[180px] ">
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
