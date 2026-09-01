@@ -5,8 +5,8 @@ import Link from "next/link";
 const TopHeader = () => {
   return (
     <section className="flex flex-col gap-4 p-4 bg-white md:flex-row md:items-center md:justify-between md:px-16 md:py-4">
-      {/* Mobile: logo in top row */}
-      <div className="flex w-full justify-start md:hidden">
+      {/* Mobile: logo in top row, centered */}
+      <div className="flex w-full justify-center md:hidden">
         <Image
           src={siteConfig.logoImage}
           alt={siteConfig.logoAltText}
