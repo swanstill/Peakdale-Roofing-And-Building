@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   foundedYear: "20+ Years Experience",
   reviewScore: "5/5",
   reviewCount: "4160",
-  guaranteeYears: "25 Year Guarantee",
+  guaranteeYears: "20 Year Guarantee",
   insurredInfo: "Fully Accredited",
   jobsCompleted: "4,160+ Projects Completed",
   phoneNumber: "+44 7450 474790",
@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
   heroTitle:
     "We're Your Local Roofer",
   heroDescription:
-    "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+    "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 20-year guarantee on every roof.",
   galleryImages: [
     "/gallery/09090.jpeg",
     "/gallery/1413.jpeg",
@@ -82,7 +82,7 @@ export const siteConfig: SiteConfig = {
     defaultTitle:
       "We're Your Local Roofer in Chesterfield & Surrounding Areas",
     description:
-      "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+      "Local roofing experts serving Chesterfield and the surrounding 30-minute drive area with over 20 years of experience, 4,160+ jobs completed, and a 20-year guarantee on every roof.",
     ogImage: "/images/og-default.jpg",
     twitterHandle: "@peakdaleroofing",
   },
@@ -243,12 +243,12 @@ export const siteConfig: SiteConfig = {
     ],
   },
   ownerInfo: {
-    headline: "Meet Paddy",
-    text: "“Hi, I'm Paddy and I've been roofing in Chesterfield and the surrounding area for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
+    headline: "Meet Pat",
+    text: "“Hi, I'm Pat and I've been roofing in Chesterfield and the surrounding area for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
     bulletPoints: [
       "4,160+ Projects Completed Locally",
       "5/5 Verified Facebook Reviews",
-      "25-Year Guarantee & Fixed Pricing",
+      "20-Year Guarantee & Fixed Pricing",
     ],
     ownerImage: "/images/team-image.jpeg",
   },
@@ -259,6 +259,6 @@ export const siteConfig: SiteConfig = {
     buttonSecondary: "Call Us",
     buttonPrimaryUrl: "#quote-form",
     buttonSecondaryUrl: "tel:+447915068323",
-    caption: "Honest pricing | No hidden fees | 25-Year guarantee",
+    caption: "Honest pricing | No hidden fees | 20-Year guarantee",
   },
 };

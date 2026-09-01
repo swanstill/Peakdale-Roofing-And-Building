@@ -11,7 +11,7 @@ const MeetOwner = () => {
           <div className="relative min-h-100 lg:min-h-145">
             <Image
               src="/images/billyjoe-docherty.jpg"
-              alt="Paddy"
+              alt="Pat"
               fill
               className="object-cover object-top"
             />
@@ -20,7 +20,7 @@ const MeetOwner = () => {
           <div className="bg-gray-50 flex flex-col justify-center px-8 md:px-12 py-10 gap-5">
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-                Meet Paddy — Top Roofing Contractors in your local area.
+                Meet Pat — Top Roofing Contractors in your local area.
               </h2>
               <p className="text-lg md:text-xl font-semibold text-gray-700 mt-1">
                 Your Local Roofer in Chesterfield & Surrounding Areas

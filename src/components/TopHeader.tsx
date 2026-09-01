@@ -15,6 +15,23 @@ const TopHeader = () => {
           width={370}
           unoptimized
         />
+        {/* Bark badge — mobile only */}
+        <Link
+          href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
+          target="_blank"
+          className="min-w-0 w-1/2 inset-0 md:hidden"
+        >
+          <div className="flex h-[60px] w-full items-center justify-center">
+            <Image
+              src="/icons/bark-widget.jpg"
+              alt="Bark Reviews"
+              width={180}
+              height={60}
+              className="h-full w-auto object-contain"
+            />
+          </div>
+        </Link>
+        {/* Facebook badge — mobile only */}
         <Link
           href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
           target="_blank"
@@ -49,6 +66,25 @@ const TopHeader = () => {
             </span>
           </Link>
         </div>
+      </div>
+
+      {/* Bark review badge */}
+      <div className="flex w-full items-stretch gap-2 md:w-auto">
+        <Link
+          href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
+          target="_blank"
+          className="hidden min-w-0 md:flex"
+        >
+          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+            <Image
+              src="/icons/bark-widget.jpg"
+              alt="Bark Reviews"
+              width={180}
+              height={60}
+              className="h-full w-auto object-contain"
+            />
+          </div>
+        </Link>
       </div>
 
       {/* Facebook review badge */}
