@@ -15,8 +15,8 @@ const TopHeader = () => {
           width={370}
           unoptimized
         />
-        {/* Badges wrapper — mobile only, with 20px gap and shadow */}
-        <div className="flex items-center gap-[20px] md:hidden">
+        {/* Badges wrapper — mobile only, with 15px gap and shadow */}
+        <div className="flex items-center gap-[15px] md:hidden">
           {/* Bark badge — mobile */}
           <Link
             href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
@@ -71,8 +71,8 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Bark and Facebook review badges — desktop, with 20px gap and shadow */}
-      <div className="flex items-stretch gap-[20px] w-full md:w-auto">
+      {/* Bark and Facebook review badges — desktop, with 15px gap and shadow */}
+      <div className="flex items-stretch gap-[15px] w-full md:w-auto">
         {/* Bark review badge */}
         <Link
           href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
