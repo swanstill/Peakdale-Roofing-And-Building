@@ -88,15 +88,15 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Bark, Facebook and MyJobQuote review badges — desktop, with 15px gap */}
-      <div className="flex items-stretch gap-[15px] w-full md:w-auto">
+      {/* Bark, Facebook and MyJobQuote review badges — desktop, with 10px gap */}
+      <div className="flex items-stretch gap-[10px] w-full md:w-auto">
         {/* Bark review badge */}
         <Link
           href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] ">
+          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
             <Image
               src="/icons/bark-widget.jpg"
               alt="Bark Reviews"
@@ -113,7 +113,7 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] ">
+          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
@@ -130,7 +130,7 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] ">
+          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
             <Image
               src="/icons/myjobquote-widget.jpg"
               alt="MyJobQuote Reviews"
