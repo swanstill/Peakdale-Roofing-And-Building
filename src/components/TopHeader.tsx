@@ -9,14 +9,16 @@ const TopHeader = () => {
       <div className="flex flex-col gap-[15px] w-full md:hidden">
         {/* Mobile row 1: logo (left) + Facebook widget (right) */}
         <div className="flex items-center justify-between gap-[15px]">
-          <Image
-            src={siteConfig.logoImage}
-            alt={siteConfig.logoAltText}
-            className="h-[80px] w-auto shrink-0 object-left object-contain"
-            height={200}
-            width={370}
-            unoptimized
-          />
+          <div className="flex flex-1 items-center justify-center">
+            <Image
+              src={siteConfig.logoImage}
+              alt={siteConfig.logoAltText}
+              className="h-[80px] w-auto shrink-0 object-left object-contain"
+              height={200}
+              width={370}
+              unoptimized
+            />
+          </div>
           <Link
             href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
             target="_blank"
