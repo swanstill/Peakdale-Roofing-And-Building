@@ -96,13 +96,13 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
+          <div className="flex h-[60px] items-center justify-center w-[180px]">
             <Image
               src="/icons/bark-widget.jpg"
               alt="Bark Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain"
+              className="h-full w-auto object-contain border border-gray-300 shadow-md"
             />
           </div>
         </Link>
@@ -113,13 +113,13 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
+          <div className="flex h-[60px] items-center justify-center w-[180px]">
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain"
+              className="h-full w-auto object-contain border border-gray-300 shadow-md"
             />
           </div>
         </Link>
@@ -130,13 +130,13 @@ const TopHeader = () => {
           target="_blank"
           className="hidden min-w-0 md:flex"
         >
-          <div className="flex h-[60px] items-center justify-center w-[180px] border border-gray-300 shadow-md">
+          <div className="flex h-[60px] items-center justify-center w-[180px]">
             <Image
               src="/icons/myjobquote-widget.jpg"
               alt="MyJobQuote Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain"
+              className="h-full w-auto object-contain border border-gray-300 shadow-md"
             />
           </div>
         </Link>
