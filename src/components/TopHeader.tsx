@@ -5,52 +5,68 @@ import Link from "next/link";
 const TopHeader = () => {
   return (
     <section className="flex flex-col gap-4 p-4 bg-white md:flex-row md:items-center md:justify-between md:px-16 md:py-4">
-      {/* Mobile: logo in top row, centered */}
-      <div className="flex w-full justify-center md:hidden">
-        <Image
-          src={siteConfig.logoImage}
-          alt={siteConfig.logoAltText}
-          className="h-[80px] w-auto shrink-0 object-left object-contain"
-          height={200}
-          width={370}
-          unoptimized
-        />
-      </div>
+      {/* Mobile: two rows, each with two columns */}
+      <div className="flex flex-col gap-[15px] w-full md:hidden">
+        {/* Mobile row 1: logo (left) + Facebook widget (right) */}
+        <div className="flex items-center justify-between gap-[15px]">
+          <Image
+            src={siteConfig.logoImage}
+            alt={siteConfig.logoAltText}
+            className="h-[80px] w-auto shrink-0 object-left object-contain"
+            height={200}
+            width={370}
+            unoptimized
+          />
+          <Link
+            href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
+            target="_blank"
+            className="flex-1"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/facebook-widget.jpg"
+                alt="Facebook Reviews"
+                width={180}
+                height={60}
+                className="h-full w-auto object-contain"
+              />
+            </div>
+          </Link>
+        </div>
 
-      {/* Mobile: two widgets in second row */}
-      <div className="flex w-full items-center justify-between gap-[15px] md:hidden">
-        {/* Bark badge — mobile */}
-        <Link
-          href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
-          target="_blank"
-          className="flex-1"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center ">
-            <Image
-              src="/icons/bark-widget.jpg"
-              alt="Bark Reviews"
-              width={180}
-              height={60}
-              className="h-full w-auto object-contain"
-            />
-          </div>
-        </Link>
-        {/* Facebook badge — mobile */}
-        <Link
-          href="https://www.facebook.com/profile.php?id=61565243171665&sk=reviews"
-          target="_blank"
-          className="flex-1"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center ">
-            <Image
-              src="/icons/facebook-widget.jpg"
-              alt="Facebook Reviews"
-              width={180}
-              height={60}
-              className="h-full w-auto object-contain"
-            />
-          </div>
-        </Link>
+        {/* Mobile row 2: Bark widget (left) + MyJobQuote widget (right) */}
+        <div className="flex items-center justify-between gap-[15px]">
+          <Link
+            href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
+            target="_blank"
+            className="flex-1"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
+                width={180}
+                height={60}
+                className="h-full w-auto object-contain"
+              />
+            </div>
+          </Link>
+          <Link
+            href="https://www.myjobquote.co.uk"
+            target="_blank"
+            className="flex-1"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/myjobquote-widget.jpg"
+                alt="MyJobQuote Reviews"
+                width={180}
+                height={60}
+                className="h-full w-auto object-contain"
+              />
+            </div>
+          </Link>
+        </div>
       </div>
 
       {/* Phone — desktop only */}
@@ -72,7 +88,7 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Bark and Facebook review badges — desktop, with 15px gap */}
+      {/* Bark, Facebook and MyJobQuote review badges — desktop, with 15px gap */}
       <div className="flex items-stretch gap-[15px] w-full md:w-auto">
         {/* Bark review badge */}
         <Link
@@ -101,6 +117,23 @@ const TopHeader = () => {
             <Image
               src="/icons/facebook-widget.jpg"
               alt="Facebook Reviews"
+              width={180}
+              height={60}
+              className="h-full w-auto object-contain"
+            />
+          </div>
+        </Link>
+
+        {/* MyJobQuote review badge */}
+        <Link
+          href="https://www.myjobquote.co.uk"
+          target="_blank"
+          className="hidden min-w-0 md:flex"
+        >
+          <div className="flex h-[60px] items-center justify-center w-[180px] ">
+            <Image
+              src="/icons/myjobquote-widget.jpg"
+              alt="MyJobQuote Reviews"
               width={180}
               height={60}
               className="h-full w-auto object-contain"
