@@ -104,7 +104,7 @@ const TopHeader = () => {
               alt="Bark Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain border border-gray-300 shadow-md"
+              className="h-full w-auto object-contain"
             />
           </div>
         </Link>
@@ -121,7 +121,7 @@ const TopHeader = () => {
               alt="Facebook Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain border border-gray-300 shadow-md"
+              className="h-full w-auto object-contain"
             />
           </div>
         </Link>
@@ -138,7 +138,7 @@ const TopHeader = () => {
               alt="MyJobQuote Reviews"
               width={180}
               height={60}
-              className="h-full w-auto object-contain border border-gray-300 shadow-md"
+              className="h-full w-auto object-contain"
             />
           </div>
         </Link>
