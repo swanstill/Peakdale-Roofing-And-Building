@@ -91,7 +91,7 @@ const TopHeader = () => {
       </div>
 
       {/* Bark, Facebook and MyJobQuote review badges — desktop, with 7px gap */}
-      <div className="flex items-stretch gap-[7px] w-full md:w-auto">
+      <div className="flex items-stretch gap-[2px] w-full md:w-auto">
         {/* Bark review badge */}
         <Link
           href="https://www.bark.com/en/uk/company/peakdale-roofing-and-building-ltd-RK01-0325672/"
