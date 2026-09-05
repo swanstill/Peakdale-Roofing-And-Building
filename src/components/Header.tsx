@@ -64,9 +64,9 @@ const Header = () => {
               <Image
                 src="/icons/google-widget.png"
                 alt="Google Reviews"
-                className="h-8 md:h-10 w-auto object-contain"
-                height={40}
-                width={160}
+                className="h-[60px] w-[180px] object-contain"
+                height={60}
+                width={180}
               />
             </a>
           </div>
