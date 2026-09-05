@@ -6,16 +6,16 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Top Bar - 92px height, full width, white background */}
-      <div className="bg-white text-gray-900 h-[92px] px-4 md:px-16 border-b border-gray-200 flex items-center">
-        <div className="flex items-center justify-between w-full">
+      <div className="bg-white text-gray-900 h-[92px] border-b border-gray-200 flex items-center">
+        <div className="flex items-center justify-between w-full px-4 md:px-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2" aria-label="Peakdale Roofing And Building Home">
             <Image
               src={siteConfig.logoImage}
               alt={siteConfig.logoAltText}
-              className="h-10 w-auto md:h-12"
-              height={48}
-              width={192}
+              className="h-[60px] w-[180px] object-contain"
+              height={60}
+              width={180}
             />
           </Link>
 
@@ -74,8 +74,8 @@ const Header = () => {
       </div>
 
       {/* Trust Badges Row - 60px height, full width, black background */}
-      <div className="bg-black text-white h-[60px] px-4 md:px-16 flex items-center">
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 w-full text-sm md:text-base">
+      <div className="bg-black text-white h-[60px] flex items-center">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 w-full px-4 md:px-16 text-sm md:text-base">
           <div className="flex items-center gap-2">
             <Image
               src="/icons/established-icon.png"
