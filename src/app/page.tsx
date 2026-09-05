@@ -1,4 +1,4 @@
-import MainHeader from "@/components/MainHeader";
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Form from "@/components/Form";
 import Reviews from "@/components/Reviews";
@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <section>
-      <MainHeader />
+      <Header />
       <Hero />
       <Form />
       <Reviews />
