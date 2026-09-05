@@ -5,17 +5,17 @@ import { siteConfig } from "@/config/SiteConfig";
 const Header = () => {
   return (
     <header className="w-full">
-      {/* Top Bar */}
-      <div className="bg-white text-gray-900 py-2 md:py-3 px-4 md:px-16 border-b border-gray-200">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
+      {/* Top Bar - 92px height, full width, white background */}
+      <div className="bg-white text-gray-900 h-[92px] px-4 md:px-16 border-b border-gray-200 flex items-center">
+        <div className="flex items-center justify-between w-full">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2" aria-label="Peakdale Roofing And Building Home">
             <Image
               src={siteConfig.logoImage}
               alt={siteConfig.logoAltText}
-              className="h-8 w-auto md:h-10"
-              height={40}
-              width={160}
+              className="h-10 w-auto md:h-12"
+              height={48}
+              width={192}
             />
           </Link>
 
@@ -64,18 +64,18 @@ const Header = () => {
               <Image
                 src="/icons/google-widget.png"
                 alt="Google Reviews"
-                className="h-6 md:h-8 w-auto object-contain"
-                height={30}
-                width={120}
+                className="h-8 md:h-10 w-auto object-contain"
+                height={40}
+                width={160}
               />
             </a>
           </div>
         </div>
       </div>
 
-      {/* Trust Badges Row */}
-      <div className="bg-gray-50 text-gray-900 py-3 px-4 md:px-16 border-b border-gray-200">
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 max-w-7xl mx-auto text-sm md:text-base">
+      {/* Trust Badges Row - 60px height, full width, black background */}
+      <div className="bg-black text-white h-[60px] px-4 md:px-16 flex items-center">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 w-full text-sm md:text-base">
           <div className="flex items-center gap-2">
             <Image
               src="/icons/established-icon.png"
