@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Top Bar */}
-      <div className="bg-black text-white py-2 md:py-3 px-4 md:px-16">
+      <div className="bg-white text-gray-900 py-2 md:py-3 px-4 md:px-16 border-b border-gray-200">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2" aria-label="Peakdale Roofing And Building Home">
@@ -34,8 +34,8 @@ const Header = () => {
                 width={20}
               />
               <div className="flex flex-col">
-                <span className="text-xs">Call Us</span>
-                <span className="text-sm font-bold">{siteConfig.phoneNumber}</span>
+                <span className="text-xs text-gray-600">Call Us</span>
+                <span className="text-sm font-bold text-gray-900">{siteConfig.phoneNumber}</span>
               </div>
             </a>
 
@@ -51,7 +51,7 @@ const Header = () => {
                 height={20}
                 width={20}
               />
-              <span className="text-sm font-bold">{siteConfig.phoneNumber}</span>
+              <span className="text-sm font-bold text-gray-900">{siteConfig.phoneNumber}</span>
             </a>
 
             {/* Google Reviews badge */}
@@ -74,7 +74,7 @@ const Header = () => {
       </div>
 
       {/* Trust Badges Row */}
-      <div className="bg-[#010203] text-white py-3 px-4 md:px-16">
+      <div className="bg-gray-50 text-gray-900 py-3 px-4 md:px-16 border-b border-gray-200">
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 max-w-7xl mx-auto text-sm md:text-base">
           <div className="flex items-center gap-2">
             <Image
