@@ -22,13 +22,13 @@ const Header = () => {
             className="min-w-0 w-1/2 inset-0 md:hidden"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
-            <div className="flex h-[60px] w-full items-center justify-center">
+            <div className="flex h-[80px] w-full items-center justify-center">
               <Image
                 src="/icons/google-widget.jpg"
                 alt="Google Reviews"
                 className="h-full w-auto object-contain"
                 width={149}
-                height={60}
+                height={80}
               />
             </div>
           </a>
@@ -56,13 +56,13 @@ const Header = () => {
             className="hidden min-w-0 md:flex"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
-            <div className="flex h-[60px] w-full items-center justify-center md:w-[149px]">
+            <div className="flex h-[80px] w-full items-center justify-center md:w-[149px]">
               <Image
                 src="/icons/google-widget.jpg"
                 alt="Google Reviews"
                 className="h-full w-auto object-contain"
                 width={149}
-                height={60}
+                height={80}
               />
             </div>
           </a>
