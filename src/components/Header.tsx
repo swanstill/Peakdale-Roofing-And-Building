@@ -52,8 +52,8 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/trustatrader-widget.jpg"
-                alt="TrustATrader Reviews"
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
                 height={60}
