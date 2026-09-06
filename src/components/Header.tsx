@@ -22,13 +22,13 @@ const Header = () => {
             className="min-w-0 w-1/2 inset-0 md:hidden"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
-            <div className="flex h-[80px] w-full items-center justify-center">
+            <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/trustatrader-widget.png"
-                alt="TrustATrader"
+                src="/icons/google-widget.jpg"
+                alt="Google Reviews"
                 className="h-full w-auto object-contain"
-                width={149}
-                height={80}
+                width={180}
+                height={60}
               />
             </div>
           </a>
@@ -56,13 +56,13 @@ const Header = () => {
             className="hidden min-w-0 md:flex"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
-            <div className="flex h-[80px] w-full items-center justify-center md:w-[149px]">
+            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
               <Image
-                src="/icons/trustatrader-widget.png"
-                alt="TrustATrader"
+                src="/icons/google-widget.jpg"
+                alt="Google Reviews"
                 className="h-full w-auto object-contain"
-                width={149}
-                height={80}
+                width={180}
+                height={60}
               />
             </div>
           </a>
@@ -114,14 +114,23 @@ const Header = () => {
           <span className="text-sm md:text-base">{siteConfig.guaranteeYears}</span>
         </div>
         <div className="flex items-center gap-2">
-          <Image
-            src="/icons/checkatrade-widget.png"
-            alt="Accredited"
-            className="h-5 w-5"
-            width={20}
-            height={20}
-          />
-          <span className="text-sm md:text-base">{siteConfig.insurredInfo}</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="shrink-0"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+            <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+            <path d="M9 15l2 2 4-4"></path>
+          </svg>
+          <span className="text-sm md:text-base">Fully Accredited</span>
         </div>
         <div className="flex items-center gap-2">
           <svg
