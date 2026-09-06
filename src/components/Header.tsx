@@ -39,8 +39,22 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/bark-widget.jpg"
-                alt="Bark Reviews"
+                src="/icons/myjobquote-widget.jpg"
+                alt="My Job Quote"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
+          <a
+            target="_blank"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/trustatrader-widget.jpg"
+                alt="TrustATrader Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
                 height={60}
