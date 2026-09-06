@@ -64,6 +64,15 @@ const Header = () => {
 
         {/* Desktop: logo left, widgets right */}
         <div className="hidden items-center gap-2 md:flex">
+          <Link href="/" aria-label={siteConfig.logoAltText}>
+            <Image
+              src={siteConfig.logoImage}
+              alt={siteConfig.logoAltText}
+              className="h-15 w-auto shrink-0 object-left object-contain"
+              height={200}
+              width={370}
+            />
+          </Link>
           <Image
             src="/images/headphone.svg"
             alt="Headphone"
