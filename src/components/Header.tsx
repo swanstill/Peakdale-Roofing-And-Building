@@ -74,8 +74,8 @@ const Header = () => {
       </div>
 
       {/* Trust Badges Row - 60px height, full width, black background */}
-      <div className="bg-black text-white h-[60px] flex items-center">
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 w-full px-4 md:px-16 text-sm md:text-base">
+      <div className="bg-black text-white h-[60px] flex items-center w-full">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 w-full text-sm md:text-base">
           <div className="flex items-center gap-2">
             <Image
               src="/icons/established-icon.png"
