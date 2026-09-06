@@ -24,8 +24,8 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/google-widget.jpg"
-                alt="Google Reviews"
+                src="/icons/facebook-widget.jpg"
+                alt="Facebook Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
                 height={60}
@@ -58,8 +58,8 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
               <Image
-                src="/icons/google-widget.jpg"
-                alt="Google Reviews"
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
                 height={60}
