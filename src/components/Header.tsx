@@ -32,6 +32,21 @@ const Header = () => {
               />
             </div>
           </a>
+          <a
+            target="_blank"
+            className="min-w-0 w-1/2 inset-0 md:hidden"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/trustatrader-widget.jpg"
+                alt="TrustATrader Reviews"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
         </div>
         <div className="hidden items-center gap-2 md:flex">
           <Image
@@ -60,6 +75,21 @@ const Header = () => {
               <Image
                 src="/icons/bark-widget.jpg"
                 alt="Bark Reviews"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
+          <a
+            target="_blank"
+            className="hidden min-w-0 md:flex"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+              <Image
+                src="/icons/trustatrader-widget.jpg"
+                alt="TrustATrader Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
                 height={60}
