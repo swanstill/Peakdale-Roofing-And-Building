@@ -7,7 +7,8 @@ const Header = () => {
     <>
       {/* Top Bar - White background */}
       <section className="flex flex-col gap-4 p-4 bg-white md:flex-row md:items-center md:justify-between md:px-16 md:py-4">
-        <div className="flex min-w-0 items-center justify-between gap-2">
+        {/* Mobile: 2 rows x 2 cols */}
+        <div className="grid grid-cols-2 gap-4 md:hidden">
           <Link href="/" aria-label={siteConfig.logoAltText}>
             <Image
               src={siteConfig.logoImage}
@@ -19,7 +20,6 @@ const Header = () => {
           </Link>
           <a
             target="_blank"
-            className="min-w-0 w-1/2 inset-0 md:hidden"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
             <div className="flex h-[60px] w-full items-center justify-center">
@@ -34,7 +34,7 @@ const Header = () => {
           </a>
           <a
             target="_blank"
-            className="min-w-0 w-1/2 inset-0 md:hidden"
+            className="col-start-2"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
             <div className="flex h-[60px] w-full items-center justify-center">
@@ -47,7 +47,24 @@ const Header = () => {
               />
             </div>
           </a>
+          <a
+            target="_blank"
+            className="col-start-2"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
         </div>
+
+        {/* Desktop: logo left, widgets right */}
         <div className="hidden items-center gap-2 md:flex">
           <Image
             src="/images/headphone.svg"
@@ -65,7 +82,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="flex w-full items-stretch gap-2 md:w-auto">
+        <div className="flex w-full items-stretch gap-2 md:w-auto md:flex-wrap">
           <a
             target="_blank"
             className="hidden min-w-0 md:flex"
