@@ -73,6 +73,21 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
               <Image
+                src="/icons/facebook-widget.jpg"
+                alt="Facebook Reviews"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
+          <a
+            target="_blank"
+            className="hidden min-w-0 md:flex"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+              <Image
                 src="/icons/bark-widget.jpg"
                 alt="Bark Reviews"
                 className="h-full w-auto object-contain"
