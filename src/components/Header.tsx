@@ -24,8 +24,8 @@ const Header = () => {
           >
             <div className="flex h-[80px] w-full items-center justify-center">
               <Image
-                src="/icons/google-widget.jpg"
-                alt="Google Reviews"
+                src="/icons/trustatrader-widget.png"
+                alt="TrustATrader"
                 className="h-full w-auto object-contain"
                 width={149}
                 height={80}
@@ -58,8 +58,8 @@ const Header = () => {
           >
             <div className="flex h-[80px] w-full items-center justify-center md:w-[149px]">
               <Image
-                src="/icons/google-widget.jpg"
-                alt="Google Reviews"
+                src="/icons/trustatrader-widget.png"
+                alt="TrustATrader"
                 className="h-full w-auto object-contain"
                 width={149}
                 height={80}
