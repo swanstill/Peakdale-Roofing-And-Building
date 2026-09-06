@@ -5,11 +5,11 @@ import { siteConfig } from "@/config/SiteConfig";
 const Header = () => {
   return (
     <header className="w-full">
-      {/* Top Bar - 92px height, full width, white background */}
-      <div className="bg-white text-gray-900 h-[92px] border-b border-gray-200 flex items-center">
-        <div className="flex items-center justify-between w-full px-4 md:px-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2" aria-label="Peakdale Roofing And Building Home">
+      {/* Top Bar - 180px height, full width, white background */}
+      <div className="bg-white text-gray-900 h-[180px] border-b border-gray-200 flex items-center">
+        <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-16 gap-4 md:gap-0">
+          {/* Logo - Left on desktop, top on mobile */}
+          <Link href="/" className="flex items-center gap-2 md:order-1" aria-label="Peakdale Roofing And Building Home">
             <Image
               src={siteConfig.logoImage}
               alt={siteConfig.logoAltText}
@@ -19,57 +19,41 @@ const Header = () => {
             />
           </Link>
 
-          {/* Right side - Phone and Google Reviews */}
-          <div className="flex items-center gap-4 md:gap-6">
-            {/* Phone link */}
+          {/* Center - Phone link */}
+          <div className="md:order-2 w-full md:w-auto">
             <a
               href={`tel:${siteConfig.phoneNumber}`}
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity hidden md:flex"
+              className="flex items-center gap-2 hover:opacity-80 transition-opacity justify-center md:justify-start"
             >
               <Image
                 src="/images/headphone.svg"
                 alt="Phone"
-                className="h-5 w-5"
-                height={20}
-                width={20}
+                className="h-6 w-6"
+                height={24}
+                width={24}
               />
               <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Call Us</span>
-                <span className="text-sm font-bold text-gray-900">{siteConfig.phoneNumber}</span>
+                <span className="text-sm text-gray-600">Call Us</span>
+                <span className="text-lg font-bold text-gray-900">{siteConfig.phoneNumber}</span>
               </div>
             </a>
-
-            {/* Mobile phone only */}
-            <a
-              href={`tel:${siteConfig.phoneNumber}`}
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity md:hidden"
-            >
-              <Image
-                src="/images/headphone.svg"
-                alt="Phone"
-                className="h-5 w-5"
-                height={20}
-                width={20}
-              />
-              <span className="text-sm font-bold text-gray-900">{siteConfig.phoneNumber}</span>
-            </a>
-
-            {/* Google Reviews badge */}
-            <a
-              href="https://share.google/eewd9ZEPoBsN6jB3G"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center hover:opacity-80 transition-opacity"
-            >
-              <Image
-                src="/icons/google-widget.png"
-                alt="Google Reviews"
-                className="h-[60px] w-[180px] object-contain"
-                height={60}
-                width={180}
-              />
-            </a>
           </div>
+
+          {/* Google Reviews badge - Right on desktop, bottom on mobile */}
+          <a
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center hover:opacity-80 transition-opacity md:order-3"
+          >
+            <Image
+              src="/icons/google-widget.png"
+              alt="Google Reviews"
+              className="h-[60px] w-[180px] object-contain"
+              height={60}
+              width={180}
+            />
+          </a>
         </div>
       </div>
 
