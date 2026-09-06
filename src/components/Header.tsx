@@ -62,7 +62,7 @@ const Header = () => {
           </a>
         </div>
 
-        {/* Desktop: logo left, widgets right */}
+        {/* Desktop: logo left, phone middle, widgets right */}
         <div className="hidden items-center gap-2 md:flex">
           <Link href="/" aria-label={siteConfig.logoAltText}>
             <Image
@@ -73,6 +73,8 @@ const Header = () => {
               width={370}
             />
           </Link>
+        </div>
+        <div className="hidden items-center gap-2 md:flex md:justify-center md:w-1/2">
           <Image
             src="/images/headphone.svg"
             alt="Headphone"
@@ -89,7 +91,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="flex w-full items-stretch gap-2 md:w-auto md:flex-wrap">
+        <div className="hidden flex w-full items-stretch gap-2 md:w-auto md:justify-end md:flex-wrap">
           <a
             target="_blank"
             className="hidden min-w-0 md:flex"
