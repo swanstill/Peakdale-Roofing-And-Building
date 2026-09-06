@@ -5,8 +5,8 @@ import { siteConfig } from "@/config/SiteConfig";
 const Header = () => {
   return (
     <header className="w-full">
-      {/* Top Bar - 180px height, full width, white background */}
-      <div className="bg-white text-gray-900 h-[180px] border-b border-gray-200 flex items-center">
+      {/* Top Bar - 90px height, full width, white background */}
+      <div className="bg-white text-gray-900 h-[90px] border-b border-gray-200 flex items-center">
         <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-16 gap-4 md:gap-0">
           {/* Logo - Left on desktop, top on mobile */}
           <Link href="/" className="flex items-center gap-2 md:order-1" aria-label="Peakdale Roofing And Building Home">
