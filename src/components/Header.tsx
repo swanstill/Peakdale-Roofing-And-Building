@@ -32,7 +32,6 @@ const Header = () => {
               />
             </div>
           </a>
-          <div />
           <a
             target="_blank"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
