@@ -56,12 +56,12 @@ const Header = () => {
             className="hidden min-w-0 md:flex"
             href="https://share.google/eewd9ZEPoBsN6jB3G"
           >
-            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+            <div className="flex h-[60px] w-full items-center justify-center md:w-[149px]">
               <Image
                 src="/icons/google-widget.jpg"
                 alt="Google Reviews"
                 className="h-full w-auto object-contain"
-                width={180}
+                width={149}
                 height={60}
               />
             </div>
