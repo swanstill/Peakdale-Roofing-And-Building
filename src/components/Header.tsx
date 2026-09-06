@@ -32,6 +32,21 @@ const Header = () => {
               />
             </div>
           </a>
+          <div />
+          <a
+            target="_blank"
+            href="https://share.google/eewd9ZEPoBsN6jB3G"
+          >
+            <div className="flex h-[60px] w-full items-center justify-center">
+              <Image
+                src="/icons/bark-widget.jpg"
+                alt="Bark Reviews"
+                className="h-full w-auto object-contain"
+                width={180}
+                height={60}
+              />
+            </div>
+          </a>
         </div>
 
         {/* Desktop: logo left, widgets right */}
