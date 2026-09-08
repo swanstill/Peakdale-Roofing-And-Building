@@ -20,7 +20,7 @@ const Header = () => {
           </Link>
           <a
             target="_blank"
-            href="https://share.google/eewd9ZEPoBsN6jB3G"
+            href="https://www.facebook.com/profile.php?id=61565243171665"
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
@@ -34,7 +34,7 @@ const Header = () => {
           </a>
           <a
             target="_blank"
-            href="https://share.google/eewd9ZEPoBsN6jB3G"
+            href="https://www.myjobquote.co.uk/t/peakdale-roofing"
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
@@ -96,7 +96,7 @@ const Header = () => {
             <a
               target="_blank"
               className="hidden min-w-0 md:flex"
-              href="https://share.google/eewd9ZEPoBsN6jB3G"
+              href="https://www.facebook.com/profile.php?id=61565243171665"
             >
               <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
                 <Image
@@ -126,7 +126,7 @@ const Header = () => {
             <a
               target="_blank"
               className="hidden min-w-0 md:flex"
-              href="https://share.google/eewd9ZEPoBsN6jB3G"
+              href="https://www.myjobquote.co.uk/t/peakdale-roofing"
             >
               <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
                 <Image
