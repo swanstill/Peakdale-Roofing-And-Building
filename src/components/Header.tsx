@@ -24,7 +24,7 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/facebook-widget.jpg"
+                src="/icons/facebook-widget.png"
                 alt="Facebook Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
@@ -38,7 +38,7 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/myjobquote-widget.jpg"
+                src="/icons/myjobquote-widget.png"
                 alt="My Job Quote"
                 className="h-full w-auto object-contain"
                 width={180}
@@ -52,7 +52,7 @@ const Header = () => {
           >
             <div className="flex h-[60px] w-full items-center justify-center">
               <Image
-                src="/icons/bark-widget.jpg"
+                src="/icons/bark-widget.png"
                 alt="Bark Reviews"
                 className="h-full w-auto object-contain"
                 width={180}
@@ -62,81 +62,83 @@ const Header = () => {
           </a>
         </div>
 
-        {/* Desktop: logo left, phone middle, widgets right */}
-        <div className="hidden items-center gap-2 md:flex">
-          <Link href="/" aria-label={siteConfig.logoAltText}>
+        {/* Desktop: 3 cols - logo left, phone middle, widgets right */}
+        <div className="hidden items-center justify-between md:flex md:w-full">
+          <div className="flex items-center">
+            <Link href="/" aria-label={siteConfig.logoAltText}>
+              <Image
+                src={siteConfig.logoImage}
+                alt={siteConfig.logoAltText}
+                className="h-15 w-auto shrink-0 object-left object-contain"
+                height={200}
+                width={370}
+              />
+            </Link>
+          </div>
+          <div className="flex items-center gap-2">
             <Image
-              src={siteConfig.logoImage}
-              alt={siteConfig.logoAltText}
-              className="h-15 w-auto shrink-0 object-left object-contain"
-              height={200}
-              width={370}
+              src="/images/headphone.svg"
+              alt="Headphone"
+              className="h-5 w-5 md:h-7.5 md:w-7.5"
+              width={20}
+              height={20}
             />
-          </Link>
-        </div>
-        <div className="hidden items-center gap-2 md:flex md:justify-center md:w-1/2">
-          <Image
-            src="/images/headphone.svg"
-            alt="Headphone"
-            className="h-5 w-5 md:h-7.5 md:w-7.5"
-            width={20}
-            height={20}
-          />
-          <div className="flex flex-col">
-            <span>Prefer to Talk? Call Us</span>
-            <a target="_blank" href={`tel:${siteConfig.phoneNumber}`}>
-              <span className="text-sm font-bold md:text-lg">
-                {siteConfig.phoneNumber}
-              </span>
+            <div className="flex flex-col">
+              <span>Prefer to Talk? Call Us</span>
+              <a target="_blank" href={`tel:${siteConfig.phoneNumber}`}>
+                <span className="text-sm font-bold md:text-lg">
+                  {siteConfig.phoneNumber}
+                </span>
+              </a>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 md:flex-wrap">
+            <a
+              target="_blank"
+              className="hidden min-w-0 md:flex"
+              href="https://share.google/eewd9ZEPoBsN6jB3G"
+            >
+              <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+                <Image
+                  src="/icons/facebook-widget.png"
+                  alt="Facebook Reviews"
+                  className="h-full w-auto object-contain"
+                  width={180}
+                  height={60}
+                />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              className="hidden min-w-0 md:flex"
+              href="https://share.google/eewd9ZEPoBsN6jB3G"
+            >
+              <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+                <Image
+                  src="/icons/bark-widget.png"
+                  alt="Bark Reviews"
+                  className="h-full w-auto object-contain"
+                  width={180}
+                  height={60}
+                />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              className="hidden min-w-0 md:flex"
+              href="https://share.google/eewd9ZEPoBsN6jB3G"
+            >
+              <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+                <Image
+                  src="/icons/myjobquote-widget.png"
+                  alt="My Job Quote"
+                  className="h-full w-auto object-contain"
+                  width={180}
+                  height={60}
+                />
+              </div>
             </a>
           </div>
-        </div>
-        <div className="hidden flex w-full items-stretch gap-2 md:w-auto md:justify-end md:flex-wrap">
-          <a
-            target="_blank"
-            className="hidden min-w-0 md:flex"
-            href="https://share.google/eewd9ZEPoBsN6jB3G"
-          >
-            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
-              <Image
-                src="/icons/facebook-widget.jpg"
-                alt="Facebook Reviews"
-                className="h-full w-auto object-contain"
-                width={180}
-                height={60}
-              />
-            </div>
-          </a>
-          <a
-            target="_blank"
-            className="hidden min-w-0 md:flex"
-            href="https://share.google/eewd9ZEPoBsN6jB3G"
-          >
-            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
-              <Image
-                src="/icons/bark-widget.jpg"
-                alt="Bark Reviews"
-                className="h-full w-auto object-contain"
-                width={180}
-                height={60}
-              />
-            </div>
-          </a>
-          <a
-            target="_blank"
-            className="hidden min-w-0 md:flex"
-            href="https://share.google/eewd9ZEPoBsN6jB3G"
-          >
-            <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
-              <Image
-                src="/icons/trustatrader-widget.jpg"
-                alt="TrustATrader Reviews"
-                className="h-full w-auto object-contain"
-                width={180}
-                height={60}
-              />
-            </div>
-          </a>
         </div>
       </section>
 
