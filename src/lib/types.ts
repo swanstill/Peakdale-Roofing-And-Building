@@ -44,6 +44,19 @@ export interface SiteConfig {
       postalCode: string;
     }[];
   };
+  mjqrReviewsData: {
+    source: string;
+    sourceImage: string;
+    reviewsUrl: string;
+    reviews: {
+      name: string;
+      serviceType: string;
+      rating: number;
+      review: string;
+      date: string;
+      postalCode: string;
+    }[];
+  };
   formData: {
     formHeading: string;
     formSteps: string[];

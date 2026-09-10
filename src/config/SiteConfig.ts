@@ -129,6 +129,49 @@ export const siteConfig: SiteConfig = {
       },
     ],
   },
+  mjqrReviewsData: {
+    source: "My Job Quote",
+    sourceImage: "/icons/myjobquote-widget.png",
+    reviewsUrl: "https://www.myjobquote.co.uk/t/peakdale-roofing",
+    reviews: [
+      {
+        name: "Stuart",
+        serviceType: "Repair and Replace Broken Patio Slabs",
+        rating: 5,
+        review:
+          "Complete satisfaction, the workmanship and final outcome was exceptional across multiple projects including paving, a garden outbuilding, and fencing. The staff were professional, friendly, helpful and approachable. I would recommend Peakdale to anyone seeking a reliable company.",
+        date: "12 August 2026",
+        postalCode: "",
+      },
+      {
+        name: "Pedro",
+        serviceType: "Kitchen Roof Leak Repair",
+        rating: 5,
+        review:
+          "Excellent work, very professional, fast. They gave me a lot of confidence. Thank you!",
+        date: "21 April 2026",
+        postalCode: "",
+      },
+      {
+        name: "Abbas Ali",
+        serviceType: "Repair Leak and Redecorate Damaged Area",
+        rating: 5,
+        review:
+          "Pat kept me updated with pics and videos and even video call showing me the problems. As a remote landlord, I really valued the communication. They fixed hidden faults free of charge within the original quote and came with a 5-year guarantee.",
+        date: "15 April 2026",
+        postalCode: "",
+      },
+      {
+        name: "Paul",
+        serviceType: "Chimney Flashing and Roof Leak Repair",
+        rating: 5,
+        review:
+          "Pat was polite and kept me informed. No pressure was applied when additional issues were discovered. I received before and after photos and they supply a three year guarantee.",
+        date: "2 April 2026",
+        postalCode: "",
+      },
+    ],
+  },
   formData: {
     formHeading: "Get a Free No-Obligation Quote",
     formSteps: [

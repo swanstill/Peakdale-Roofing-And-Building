@@ -9,9 +9,11 @@ interface ReviewCardProps {
     postalCode: string;
     serviceType: string;
   };
+  sourceImage?: string;
+  sourceAlt?: string;
 }
 
-const ReviewCard = ({ review }: ReviewCardProps) => {
+const ReviewCard = ({ review, sourceImage, sourceAlt }: ReviewCardProps) => {
   const initial = review.name.charAt(0).toUpperCase();
 
   const avatarColors = [
@@ -72,9 +74,9 @@ const ReviewCard = ({ review }: ReviewCardProps) => {
         </div>
 
         <img
-          src="/icons/facebook.svg"
-          alt="Facebook"
-          className="w-8 h-8 shrink-0"
+          src={sourceImage || "/icons/facebook.svg"}
+          alt={sourceAlt || "Facebook"}
+          className="w-8 h-8 shrink-0 object-contain"
           width={32}
           height={32}
         />
