@@ -131,7 +131,7 @@ export const siteConfig: SiteConfig = {
   },
   mjqrReviewsData: {
     source: "My Job Quote",
-    sourceImage: "/icons/myjobquote-widget.png",
+    sourceImage: "/icons/myjobquote-review.png",
     reviewsUrl: "https://www.myjobquote.co.uk/t/peakdale-roofing",
     reviews: [
       {
